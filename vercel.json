@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/verify-key.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/verify-key",
+      "dest": "/api/verify-key.js"
+    }
+  ]
+}
